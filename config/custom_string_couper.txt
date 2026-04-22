@@ -1,0 +1,103 @@
+
+
+$s_access_levels_enum_string = '10:invité,25:rapporteur,40:développeur,55:expert fonctionnel,70:admin systeme,90:administrateur';
+$s_username = 'Nom d’utilisateur (prenom.nom)';
+$s_password = 'Mot de passe (mot de passe intramar)';
+$s_view_bugs_link = 'Afficher les faits techniques';
+$s_report_bug_link = 'Rapporter un fait technique (bogue, évolution,...)';
+
+//----------------------------
+//personnalisation des statuts
+//----------------------------
+//$s_status_enum_string = '10:saisie,20:commentaire,30:accepté,40:prise en charge,50:affecté,60:en test,80:qualifiée,90:clôturée,100:tgcm';
+//$s_resolution_enum_string = '10:saisie,20:qualifiée,30:réouvert,40:impossible à reproduire,50:impossible à corriger,60:doublon,70:pas une FFT,80:suspendue,90:ne sera pas qualifiée';
+//$s_priority_enum_string = '20:Faible,30:Moyenne,50:Urgente';
+//$s_severity_enum_string = '50:Mineur,60:Majeur,80:Critique';
+
+$s_new_bug_title = 'Saisir la FFT';
+$s_confirmed_bug_title = 'Prendre en charge la FFT';
+
+//$s_resolved_bug_title = 'Qualifier la FFT';
+$s_assigned_bug_title = 'Qualifier la FFT';
+
+$s_analysee_bug_title = 'Analyser la FFT';
+$s_traitee_bug_title = 'Traiter la FFT';
+
+//$s_validee_bug_title = 'Valider la FFT';
+$s_resolved_bug_title = 'Valider la FFT';
+
+$s_closed_bug_title = 'Clôturer la FFT';
+
+$s_new_bug_button = 'Saisir la FFT';
+$s_confirmed_bug_button = 'Prendre en charge la FFT';
+
+//$s_resolved_bug_button = 'Qualifier la FFT';
+$s_assigned_bug_button = 'Qualifier la FFT';
+
+$s_analysee_bug_button = 'Analyser la FFT';
+$s_traitee_bug_button = 'Traiter la FFT';
+
+//$s_validee_bug_button = 'Valider la FFT';
+$s_resolved_bug_button = 'Valider la FFT';
+
+$s_closed_bug_button = 'Clôturer la FFT';
+
+$s_email_notification_title_for_status_bug_new = 'Le fait technique suivant est maintenant à l\'état « saisie » (encore)';
+$s_email_notification_title_for_status_bug_confirmed = 'Le fait technique suivant a été pris en charge.';
+
+//$s_email_notification_title_for_status_bug_resolved = 'Le fait technique suivant a été qualifié.';
+$s_email_notification_title_for_status_bug_assigned = 'Le fait technique suivant a été qualifié.';
+
+$s_email_notification_title_for_status_bug_analysee = 'Le fait technique suivant a été analysé.';
+$s_email_notification_title_for_action_bug_traitee = 'Le fait technique suivant a été traité.';
+
+//$s_email_notification_title_for_action_bug_validee = 'Le fait technique suivant a été validé.';
+$s_email_notification_title_for_action_bug_resolved = 'Le fait technique suivant a été validé.';
+
+$s_email_notification_title_for_action_bug_closed = 'Le fait technique suivant a été clôturé.';
+
+$s_custom_field_display_report = 'Afficher lors de la saisie de FFT';
+$s_custom_field_display_update = 'Afficher lors de mise à jour de FFT';
+
+//$s_custom_field_display_resolved = 'Montrer lors de qualification d\'une FFT';
+$s_custom_field_display_resolved = 'Montrer lors de validation d\'une FFT';
+
+$s_custom_field_display_closed = 'Montrer lors de clôture d\'une FFT';
+$s_custom_field_require_report = 'Nécessaire pour la saisie';
+$s_custom_field_require_update = 'Nécessaire à la mise à jour';
+
+//$s_custom_field_require_resolved = 'Nécessaire à la qualification';
+$s_custom_field_require_resolved = 'Nécessaire à la validation';
+
+$s_custom_field_require_closed = 'Nécessaire à la clôture';
+
+$s_opened = 'Saisie';
+//$s_resolved = 'Qualifiée';
+$s_resolved = 'Validée';
+
+/* $s_no_category = '(Aucune qualification)';
+$s_by_category = 'Par qualification';
+$s_select_category = 'Choisir une qualification';
+$s_category = 'Qualification';
+$s_email_category = 'Qualification';
+$s_no_category = '(Aucune qualification)'; */
+
+//$s_orct = '(saisie/qualifiée/clôturée/total)';
+$s_orct = '(saisie/validée/clôturée/total)';
+
+//$s_reporter_by_resolution = 'Utilisateurs par qualification';
+$s_reporter_by_resolution = 'Utilisateurs par validation';
+
+$s_reporter_effectiveness = 'Efficacité de l\'utilisateur';
+$s_developer_by_resolution = 'Développeurs par qualification';
+$s_by_resolution = 'Par qualification';
+$s_by_developer = 'Par développeur';
+$s_by_reporter = 'Par utilisateur';
+
+//$s_my_view_title_resolved = 'Qualifiée';
+$s_my_view_title_resolved = 'Validée';
+
+$s_filter_closed = 'Clôturée';
+
+//$s_filter_resolved = 'Qualifiée';
+$s_filter_resolved = 'Validée';
