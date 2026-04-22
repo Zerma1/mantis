@@ -1,0 +1,92 @@
+/*Par Serge Hebert (Qc) pour Le CONcepteur.ca*/
+/*Pour me joindre shebert@leconcepteur.ca*/
+
+/* CSS Reset */
+*{
+margin: 0;
+padding: 0;
+}
+
+header, footer, aside, nav, article, p {
+display:block;
+}
+
+img{
+border:none
+}
+/*end reset*/
+
+html {
+font-size:100%;
+background:#b4c0bc url(../images/bg.jpg) top center no-repeat;
+margin:0;
+padding:0
+}
+
+body {
+color:#000;
+font-size:.9em;
+font-family:Arial, Helvetica, sans-serif;
+background-color:#ffffff;
+border:1px solid #6d7673;
+border-radius:10px;
+-moz-border-radius:10px;
+-moz-box-shadow: 0 0 5px #6d7673;
+-webkit-box-shadow: 0 0 5 px#6d7673;
+box-shadow: 0 0 5px #6d7673;
+width:640px;
+min-height:600px;
+margin:10px auto;
+padding:0
+}
+
+div#banner{
+color:#000000;
+/*text-shadow:3px 3px 3px #000;*/
+/*background:#6d7673 url(../images/banniere.png) no-repeat;
+width:580px;
+height:190px;*/
+margin:10px 20px;
+padding:5px 15px 15px 5px;
+border:1px solid #6d7673;
+border-radius:10px;
+-moz-border-radius:10px;
+-moz-box-shadow: 0 0 5px #6d7673;
+-webkit-box-shadow: 0 0 5px# 6d7673;
+box-shadow: 0 0 5px #6d7673
+}
+
+header#banner{
+color:#000000;
+text-shadow:3px 3px 3px #000;
+background:#FFFFFF url(../images/banniere.png) no-repeat 0 20px;
+width:580px;
+height:190px;
+margin:10px 20px;
+padding:5px;
+/*border:1px solid #6d7673;
+border-radius:10px;*/
+-moz-border-radius:10px;
+-moz-box-shadow: 0 0 5px #6d7673;
+-webkit-box-shadow: 0 0 5px# 6d7673;
+/*box-shadow: 0 0 5px #6d7673*/
+}
+
+header#banner p{
+font-size:.65em;
+margin:-15px 0 0 5px
+}
+
+nav#menu-top{
+margin-top:120px;
+}
+
+nav#menu-top a{
+color:#fff;
+padding:0 20px;
+text-decoration:none
+}
+
+nav#menu-top a:hover{
+color:#00ff0f;
+}

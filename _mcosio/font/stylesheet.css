@@ -1,0 +1,26 @@
+h1,h2.fontface{
+font:50px/58px 'TangerineRegular', Arial, sans-serif;
+letter-spacing:0
+}
+
+@font-face{
+font-family:'TangerineRegular';
+src: url('Tangerine_Regular-webfont.eot');
+src: url('Tangerine_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('Tangerine_Regular-webfont.woff') format('woff'),
+     url('Tangerine_Regular-webfont.ttf') format('truetype'),
+     url('Tangerine_Regular-webfont.svg#TangerineRegular') format('svg');
+font-weight:normal;
+font-style:normal
+}
+
+@font-face{
+font-family:'TangerineBold';
+src: url('Tangerine_Bold-webfont.eot');
+src: url('Tangerine_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('Tangerine_Bold-webfont.woff') format('woff'),
+     url('Tangerine_Bold-webfont.ttf') format('truetype'),
+     url('Tangerine_Bold-webfont.svg#TangerineBold') format('svg');
+font-weight:normal;
+font-style:normal
+}
