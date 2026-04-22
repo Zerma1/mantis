@@ -111,12 +111,17 @@ $g_path                   = 'http://localhost/mantisbt-2.27.3/';
 //#region Bug Update Page Fields
     # Champs à afficher sur la page de mise à jour du ticket
     $g_bug_update_page_fields = array(
+        'id',
+        'project_id',
         'category_id',
         'view_state',
+        'date_submitted',
+        'last_updated',
+        'reporter',
         'handler',
-        'priority',
         'severity',
         'status',
+        'resolution',
         'summary',
         'description',
         'additional_information',
