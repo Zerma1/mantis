@@ -35,6 +35,13 @@ switch( $g_active_language ) {
             110:Utilisateur
         ';
 
+        $s_severity_enum_string = '
+            10:Mineur,
+            20:Majeur,
+            30:Critique,
+            40:Bloquant
+        ';
+
         # BOUTONS
         //*
         $s_to_be_tested_bug_button = 'Prêt pour test';

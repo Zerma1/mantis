@@ -34,6 +34,6 @@
 
 # Custom sévéritée
     define("MINEUR", 10);
-    define("MAJEUR",110);
-    define("CRITIQUE",12);
-    define("BLOQUANT",13);
+    define("MAJEUR",20);
+    define("CRITIQUE",30);
+    define("BLOQUANT",40);
