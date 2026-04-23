@@ -29,26 +29,24 @@ $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_man
             192:rejete
         ';
 
-    # Couleurs (La clé doit être 'to_be_tested' sans espace)
-        $s_status_colors = array(
-
-            100 => '#FA5858', // Nouveaux (Ancienne couleur: new)
-            101 => '#ffcd85', // Pris en charge (Ancienne couleur: assigned)
-            110 => '#e3b7eb', // Qualifié (Ancienne couleur: confirmed/plum)
-            120 => '#fff494', // Analysé (Ancienne couleur: analysee/butter)
-            133 => '#FF00FF', // Affecté DEV (Nouvelle couleur: Magenta)
-            140 => '#c2dfff', // Traité (Ancienne couleur: traitee/sky blue)
-            151 => '#ADFF2F', // À déployer (Nouvelle couleur: Vert acide)
-            160 => '#32CD32', // À tester (Nouvelle couleur: Vert lime)
-            161 => '#00FF7F', // Validé Usine (Nouvelle couleur: Vert printemps)
-            162 => '#d2f5b0', // Résolu (Ancienne couleur: resolved/chameleon)
-            180 => '#C0C0C0', // Demande précision (Nouvelle couleur: Gris clair)
-            181 => '#800080', // Suspendu (Nouvelle couleur: Violet)
-            182 => '#FF1493', // Réouvert (Nouvelle couleur: Rose profond)
-            190 => '#c9ccc4', // Fermé (Ancienne couleur: closed/aluminum)
-            191 => '#696969', // Annulé (Nouvelle couleur: Gris foncé)
-            192 => '#000000'  // Rejeté (Nouvelle couleur: Noir)
-
+    # Couleurs (La clé doit être le nom du statut, pas son numéro)
+        $g_status_colors = array(
+            'noveaux'           => '#FA5858', // (Ancienne couleur: new)
+            'pris en charge'    => '#ffcd85', // (Ancienne couleur: assigned)
+            'qualifie'          => '#e3b7eb', // (Ancienne couleur: confirmed/plum)
+            'analyse'           => '#fff494', // (Ancienne couleur: analysee/butter)
+            'affecte_DEV'       => '#FF00FF', // (Nouvelle couleur: Magenta)
+            'traite'            => '#c2dfff', // (Ancienne couleur: traitee/sky blue)
+            'a_deploye'         => '#ADFF2F', // (Nouvelle couleur: Vert acide)
+            'a_tester'          => '#32CD32', // (Nouvelle couleur: Vert lime)
+            'valide_usine'      => '#00FF7F', // (Nouvelle couleur: Vert printemps)
+            'resolu'            => '#d2f5b0', // (Ancienne couleur: resolved/chameleon)
+            'demande_precision' => '#C0C0C0', // (Nouvelle couleur: Gris clair)
+            'suspendu'          => '#800080', // (Nouvelle couleur: Violet)
+            'reouvert'          => '#FF1493', // (Nouvelle couleur: Rose profond)
+            'ferme'             => '#c9ccc4', // (Ancienne couleur: closed/aluminum)
+            'annule'            => '#696969', // (Nouvelle couleur: Gris foncé)
+            'rejete'            => '#000000'  // (Nouvelle couleur: Noir)
         );
 
 //#endregion Customizing Status Values
