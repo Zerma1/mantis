@@ -108,24 +108,21 @@
 
 //#region Niveau d'acces
     # Niveaux d'accès
+    // OLD: $g_access_levels_enum_string = '110:USER, 120:TESTEUR, 130:SOUTIEN, 140:DEVELOPEUR, 150:RRP, 160:RCP, 190:ADMIN, 999:SUP_ADMIN';
     $g_access_levels_enum_string = '
-        110:USER,
-        
-        120:TESTEUR,
-        130:SOUTIEN,
-        140:DEVELOPEUR,
+        110:Utilisateur,
+        120:Testeur,
+        130:Soutien,
+        140:Développeur,
         150:RRP,
         160:RCP,
-        190:ADMIN,
-        
-        999:SUP_ADMIN
+        190:Admin,
+        999:SUPER_Admin
     ';
-
 //#endregion Niveau d'acces
 
 
 //#region Severitée
-
     // OLD: $g_severity_enum_string = '10:MINEUR, 20:MAJEUR, 30:CRITIQUE, 40:BLOQUANT';
     $g_severity_enum_string = '
         10:Mineur,
@@ -133,7 +130,6 @@
         30:Critique,
         40:Bloquant'
     ;
-
 //#endregion Severitée
 
 
