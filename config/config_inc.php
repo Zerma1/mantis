@@ -8,7 +8,7 @@
     $g_default_timezone       = 'UTC';
     $g_crypto_master_salt     = 'MTDB6MKij6FmCHqbH3lV/GyNgKFbsc8RMKQ4SMeQvPM=';
     $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_mantis/';
-//#region Information de Connexion
+//#endregion Information de Connexion
 
 
 //#region Customizing Status Values
@@ -31,7 +31,7 @@
             191:annule,
             192:rejete
         ';
-//#region  Customizing Status Values
+//#endregion  Customizing Status Values
 
 
 //#region Customizing Status Colors
@@ -75,6 +75,7 @@
 
 //#endregion Niveau d'acces
 
+
 //#region Severitée
 
     $g_severity_enum_string = '
@@ -85,6 +86,7 @@
     ;
 
 //#endregion Severitée
+
 
 //#region Bug Report Page Fields
     # Champs à afficher sur la page de création de ticket
@@ -101,6 +103,7 @@
 //    );
 //#endregion
 
+
 //#region gestion droit
     # Autoriser l'admin (190) à gérer vos nouveaux niveaux
     $g_manage_user_threshold = 190;
@@ -111,6 +114,7 @@
     # Niveau par défaut lors de la création d'un compte
     $g_default_new_account_access_level = 110;
 //#endregion
+
 
 //#region CONFIGURATION E-MAIL
 
