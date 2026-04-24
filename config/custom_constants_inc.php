@@ -1,6 +1,6 @@
 <?php
 
-# Custom status code
+//#region Custom Status Code
 	define('NOUVEAU',100);
 	define('PRIS_EN_CHARGE',101);
 	define('QUALIFIER',110);
@@ -17,10 +17,9 @@
 	define('FERME',190);
 	define('ANNULE',191);
 	define('REJETE',192);
+//#endregion
 
-
-# Custom Acces Level
-	//
+//#region Custom Acces Level
 	define('SUP_ADMIN',999);
 
     define('ADMIN', 190);
@@ -31,9 +30,11 @@
 	define('TESTEUR', 120);
 
 	define('USER', 110);
+//#endregion
 
-# Custom sévéritée
+//#region Custom Sévéritée
     define("MINEUR", 10);
     define("MAJEUR",20);
     define("CRITIQUE",30);
     define("BLOQUANT",40);
+//#endregion
