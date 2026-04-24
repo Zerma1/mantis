@@ -7,7 +7,7 @@
     $g_db_password            = '';
     $g_default_timezone       = 'UTC';
     $g_crypto_master_salt     = 'MTDB6MKij6FmCHqbH3lV/GyNgKFbsc8RMKQ4SMeQvPM=';
-    $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_mantis/';
+    $g_path                   = 'http://localhost/mantis/';
 //#endregion Information de Connexion
 
 
