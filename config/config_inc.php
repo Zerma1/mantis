@@ -1,12 +1,15 @@
 <?php
-$g_hostname               = 'localhost';
-$g_db_type                = 'mysqli';
-$g_database_name          = 'new_mantis';
-$g_db_username            = 'root';
-$g_db_password            = '';
-$g_default_timezone       = 'UTC';
-$g_crypto_master_salt     = 'MTDB6MKij6FmCHqbH3lV/GyNgKFbsc8RMKQ4SMeQvPM=';
-$g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_mantis/';
+//#region Information de Connexion
+    $g_hostname               = 'localhost';
+    $g_db_type                = 'mysqli';
+    $g_database_name          = 'new_mantis';
+    $g_db_username            = 'root';
+    $g_db_password            = '';
+    $g_default_timezone       = 'UTC';
+    $g_crypto_master_salt     = 'MTDB6MKij6FmCHqbH3lV/GyNgKFbsc8RMKQ4SMeQvPM=';
+    $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_mantis/';
+//#region Information de Connexion
+
 
 //#region Customizing Status Values
     # Correction de l'espace dans 'to_be_tested'
@@ -28,8 +31,12 @@ $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_man
             191:annule,
             192:rejete
         ';
+//#region  Customizing Status Values
 
+
+//#region Customizing Status Colors
     # Couleurs (La clé doit être le nom du statut, pas son numéro)
+//        $s_status_colors = array(
         $g_status_colors = array(
             'noveaux'           => '#FF0000', // (Ancienne couleur: new/Rouge vif)
             'pris en charge'    => '#ffcd85', // (Ancienne couleur: assigned/orange)
@@ -48,8 +55,8 @@ $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_man
             'annule'            => '#696969', // (Nouvelle couleur: Gris foncé)
             'rejete'            => '#000000'  // (Nouvelle couleur: Noir)
         );
+//#endregion Customizing Status Colors
 
-//#endregion Customizing Status Values
 
 //#region Niveau d'acces
     # Niveaux d'accès
