@@ -7,7 +7,7 @@
     $g_db_password            = '';
     $g_default_timezone       = 'UTC';
     $g_crypto_master_salt     = 'MTDB6MKij6FmCHqbH3lV/GyNgKFbsc8RMKQ4SMeQvPM=';
-    $g_path                   = 'http://localhost/mantis/';
+    $g_path                   = 'http://localhost/mantisbt-2.27.3/';
 //#endregion Information de Connexion
 
 
