@@ -135,17 +135,17 @@
 
 //#region Bug Report Page Fields
     # Champs à afficher sur la page de création de ticket
-//    $g_bug_report_page_fields = array(
-//        'category_id',
-//        'severity',
-//        'summary',
-//        'description',
-//        'additional_information',
-//        'view_state',
-//        'handler',
-//        'tags',
-//        'attachments',
-//    );
+    $g_bug_report_page_fields = array(
+        'category_id',
+        'severity',
+        'summary',
+        'description',
+        'additional_information',
+        'view_state',
+        'handler',
+        'tags',
+        'attachments',
+    );
 //#endregion
 
 
