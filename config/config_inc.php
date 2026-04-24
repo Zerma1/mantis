@@ -31,8 +31,8 @@ $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_man
 
     # Couleurs (La clé doit être le nom du statut, pas son numéro)
         $g_status_colors = array(
-            'noveaux'           => '#FA5858', // (Ancienne couleur: new)
-            'pris en charge'    => '#ffcd85', // (Ancienne couleur: assigned)
+            'noveaux'           => '#FF0000', // (Ancienne couleur: new/Rouge vif)
+            'pris en charge'    => '#ffcd85', // (Ancienne couleur: assigned/orange)
             'qualifie'          => '#e3b7eb', // (Ancienne couleur: confirmed/plum)
             'analyse'           => '#fff494', // (Ancienne couleur: analysee/butter)
             'affecte_DEV'       => '#FF00FF', // (Nouvelle couleur: Magenta)
@@ -81,20 +81,20 @@ $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_man
 
 //#region Bug Report Page Fields
     # Champs à afficher sur la page de création de ticket
-    $g_bug_report_page_fields = array(
-        'category_id',
-        'severity',
-        'summary',
-        'description',
-        'additional_information',
-        'view_state',
-        'handler',
-        'tags',
-        'attachments',
-    );
+//    $g_bug_report_page_fields = array(
+//        'category_id',
+//        'severity',
+//        'summary',
+//        'description',
+//        'additional_information',
+//        'view_state',
+//        'handler',
+//        'tags',
+//        'attachments',
+//    );
 //#endregion
 
-//#region
+//#region gestion droit
     # Autoriser l'admin (190) à gérer vos nouveaux niveaux
     $g_manage_user_threshold = 190;
 
@@ -105,7 +105,7 @@ $g_path                   = 'https://pprod-portail-cepn.intradef.gouv.fr/new_man
     $g_default_new_account_access_level = 110;
 //#endregion
 
-//#region --- CONFIGURATION E-MAIL ---
+//#region CONFIGURATION E-MAIL
 
     # Méthode d'envoi : 1 pour la fonction mail() de PHP, 2 pour SMTP.
     # Nous utilisons SMTP pour plus de fiabilité.
