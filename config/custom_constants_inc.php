@@ -38,3 +38,12 @@
     define("CRITIQUE",30);
     define("BLOQUANT",40);
 //#endregion
+
+//# region Custom Statu Projet
+    define("DEVELOPMENT", 10);
+    define("TEST", 20);
+    define("RELEASE", 30);
+    define("CLOSED", 40);
+    define("STABLE", 50);
+    define("OBSOLETE", 60);
+//#endregion
